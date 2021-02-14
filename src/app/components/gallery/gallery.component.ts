@@ -51,32 +51,38 @@ export class GalleryComponent implements OnInit {
         small:'assets/1.jpg',
         medium:'assets/1.jpg',
         big:'assets/1.jpg',
+        description:"Pizza"
 
       },
       {
         small:'assets/2.jpg',
         medium:'assets/2.jpg',
-        big:'assets/2.jpg'
+        big:'assets/2.jpg',
+        description:"Burger"
       },
       {
         small:'assets/3.jpg',
         medium:'assets/3.jpg',
-        big:'assets/3.jpg'
+        big:'assets/3.jpg',
+        description:"Chicken"
       },
       {
         small:'assets/4.jpg',
         medium:'assets/4.jpg',
-        big:'assets/4.jpg'
+        big:'assets/4.jpg',
+        description:"Noodles"
       },
       {
         small:'assets/5.jpg',
         medium:'assets/5.jpg',
-        big:'assets/5.jpg'
+        big:'assets/5.jpg',
+        description:"Pasta"
       },
       {
         small:'assets/6.jpg',
         medium:'assets/6.jpg',
-        big:'assets/6.jpg'
+        big:'assets/6.jpg',
+        description:"Veg-pasta"
       },
       {
         small:'assets/7.jpg',
