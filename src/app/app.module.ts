@@ -6,12 +6,14 @@ import { NgxGalleryModule } from 'ngx-gallery';
 import 'hammerjs';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { MatToolbarModule } from '@angular/material';
+import { GalleryCountComponent } from './components/gallery-count/gallery-count.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    GalleryComponent
+    GalleryComponent,
+    GalleryCountComponent
   ],
   imports: [
     BrowserModule,
