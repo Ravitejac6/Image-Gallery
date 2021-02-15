@@ -29,7 +29,9 @@ export class GalleryComponent implements OnInit {
         imageBullets:true,
         previewKeyboardNavigation: true,
         imageArrowsAutoHide:true,
-        thumbnailsArrowsAutoHide:true
+        thumbnailsArrowsAutoHide:true,
+        arrowNextIcon: 'fa fa-chevron-right',
+        arrowPrevIcon: 'fa fa-chevron-left'
       },
       {
         breakpoint:800,
