@@ -11,7 +11,7 @@ export class GalleryComponent implements OnInit {
 
 
   galleryOptions : NgxGalleryOptions[];
-  galleryImages : NgxGalleryImage[];
+  galleryImages : NgxGalleryImage[] = [];
   galleryActions : NgxGalleryAction[];
 
   constructor() { }
@@ -46,55 +46,15 @@ export class GalleryComponent implements OnInit {
       }
     ];
 
-    this.galleryImages = [
-      {
-        small:'assets/1.jpg',
-        medium:'assets/1.jpg',
-        big:'assets/1.jpg',
-        description:"Pizza"
-
-      },
-      {
-        small:'assets/2.jpg',
-        medium:'assets/2.jpg',
-        big:'assets/2.jpg',
-        description:"Burger"
-      },
-      {
-        small:'assets/3.jpg',
-        medium:'assets/3.jpg',
-        big:'assets/3.jpg',
-        description:"Chicken"
-      },
-      {
-        small:'assets/4.jpg',
-        medium:'assets/4.jpg',
-        big:'assets/4.jpg',
-        description:"Noodles"
-      },
-      {
-        small:'assets/5.jpg',
-        medium:'assets/5.jpg',
-        big:'assets/5.jpg',
-        description:"Pasta"
-      },
-      {
-        small:'assets/6.jpg',
-        medium:'assets/6.jpg',
-        big:'assets/6.jpg',
-        description:"Veg-pasta"
-      },
-      {
-        small:'assets/7.jpg',
-        medium:'assets/7.jpg',
-        big:'assets/7.jpg'
-      },
-      {
-        small:'assets/8.jpg',
-        medium:'assets/8.jpg',
-        big:'assets/8.jpg'
+    for(let i=1;i<=8;i++){
+      let img = 'assets/'+i+'.jpg';
+      let image_obj = {
+          small:img,
+          medium:img,
+          big:img
       }
-    ]
+      this.galleryImages.push(image_obj);
+    }
     
   }
 }
