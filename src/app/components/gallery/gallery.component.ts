@@ -20,8 +20,8 @@ export class GalleryComponent implements OnInit {
 
     this.galleryOptions = [
       {
-        width : '600px',
-        height:'400px',
+        width : '800px',
+        height:'500px',
         thumbnailsColumns: 4,
         imageAnimation : NgxGalleryAnimation.Slide,
         previewCloseOnClick: true, 
